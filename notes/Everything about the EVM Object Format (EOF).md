@@ -52,7 +52,7 @@ Potential other features for the future could include:
 - [EIP-3670: EOF - Code Validation](https://eips.ethereum.org/EIPS/eip-3670)
 - [EIP-4200: Static relative jumps](https://eips.ethereum.org/EIPS/eip-4200)
 - [Magicians forum: EOF](https://ethereum-magicians.org/t/evm-object-format-eof/5727)
-- PEEPanEIP Explainer (June 2021): [Video](https://youtu.be/E02THhW-yTE) and [Slides](https://notes.ethereum.org/@ipsilon/eof-peepaneip-presentation)
+- PEEPanEIP Explainer (June 2021): [Video](https://youtu.be/E02THhW-yTE) and [Slides](./PEEPanEIP-3540_3670_%20EVM%20Object%20Format%20(EOF)%20v1.md)
 
 ### Various Potential Use Cases
 - [EIP-2938 Account Abstraction with EVM Object Format](https://notes.ethereum.org/@axic/account-abstraction-with-eof)

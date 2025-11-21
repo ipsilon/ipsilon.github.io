@@ -2,7 +2,7 @@
 
 In this report we compare performance of Geth EVM compiled with go 1.16 and 1.17 on the linux/amd64 architecture. We expect to see a difference because go 1.17 is [_passing function arguments and results using registers instead of the stack_](https://go.dev/doc/go1.17#compiler) on this architecture.
 
-We used the latest Go toolchains from 1.16.x and 1.17.x series. The benchmark suite, tools and hardware are the same as in [the previous report](https://notes.ethereum.org/@ipsilon/evm-performance-report-geth-vs-evmone):
+We used the latest Go toolchains from 1.16.x and 1.17.x series. The benchmark suite, tools and hardware are the same as in [the previous report](./EVM%20Performance%20Report%20—%20Geth%20vs%20evmone.md):
 - [geth](https://github.com/ethereum/go-ethereum) [1.10.12](https://github.com/ethereum/go-ethereum/releases/tag/v1.10.12) released 2021-11-08
 - [go 1.16.10](https://go.dev/doc/devel/release#go1.16) released 2021-11-04
 - [go 1.17.3](https://go.dev/doc/devel/release#go1.17) released 2021-11-04

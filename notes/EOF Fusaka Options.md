@@ -159,7 +159,7 @@ The EIP list consists of:
 
 ### (A) - Complete EOF
 
-While Complete EOF’s design is complete, development remains ongoing. A [testnet plan](https://notes.ethereum.org/@ipsilon/eof-testnets-plan) outlines two additional iterations: one incorporating all backward-incompatible changes, followed by another focusing on "additive" opcodes accommodating introspection bans.
+While Complete EOF's design is complete, development remains ongoing. A [testnet plan](./Osaka%20Testnets%20Plan.md) outlines two additional iterations: one incorporating all backward-incompatible changes, followed by another focusing on "additive" opcodes accommodating introspection bans.
 
 A key unresolved issue is deploying contracts during a fork transition. This is a question raised by [EIP-7666: EVM-ify the Identity Precompile](https://eips.ethereum.org/EIPS/eip-7666) independent of EOF. It would deploy a short contract at address `0x4` to replace a simple precompile. This would be a precursor to eventually removing all other precompiles once features like EVMMAX are delivered. Complete EOF would leverage this to deploy an EOF-specific creator contract. With this Complete EOF contracts would not use the standard contract creation process but instead would rely on a predeployed contract to serve as a toehold `TXCREATE` factory.
 

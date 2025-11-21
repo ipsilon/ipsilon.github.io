@@ -20,7 +20,7 @@ The team formed in late 2017 under the name Ewasm with the goal to bring WebAsse
 
 The team’s core concern is the execution environment / engine of Ethereum (aka the EVM or any future versions or replacements of it). We provide analysis and implementation of own and third party proposals (i.e. new EIPs proposing changes to the EVM), provide tooling (evmc, evmone, fizzy), and support existing teams (e.g. Solidity, go-ethereum, Silkworm, Erigon) with implementation and analysis.
 
-We publish our findings on [notes.ethereum.org/@ipsilon](https://notes.ethereum.org/@ipsilon), [Ethereum Magicians](https://ethereum-magicians.org), and [ethresear.ch](https://ethresear.ch). We also give talks at ecosystem events like Protocol Workshops, Devcon, EVM Summit, EthCC, EthOnline, Wasm on Web3, LisCon, etc.
+We publish our findings on our [public notes repository](https://github.com/ipsilon/documentation), [Ethereum Magicians](https://ethereum-magicians.org), and [ethresear.ch](https://ethresear.ch). We also give talks at ecosystem events like Protocol Workshops, Devcon, EVM Summit, EthCC, EthOnline, Wasm on Web3, LisCon, etc.
 
 Additionally, a regular summary on blog.ethereum.org: [December 2022](https://blog.ethereum.org/2022/12/29/supported-teams-roundup-22#ipsilon-execution-environment-research), [December 2021](https://blog.ethereum.org/2021/12/22/ef-supported-teams-research-and-development-update-2021-pt-3/#ipsilon), [August 2021](https://blog.ethereum.org/2021/08/12/ef-supported-teams-research-and-development-update-2021-pt-2/#ipsilon-previously-ewasm), [April 2021](https://blog.ethereum.org/2021/04/26/ef-supported-teams-research-and-development-update-2021-pt-1/#ewasm), [December 2020](https://blog.ethereum.org/2020/12/09/ef-supported-teams-research-and-development-update-2020-pt-2/#ewasm), [April 2020](https://blog.ethereum.org/2020/04/14/ef-supported-teams-research-and-development-update-2020-pt-1/#ewasm), [December 2019](https://blog.ethereum.org/2019/12/03/ef-supported-teams-research-and-development-update-2019-pt-2/#ewasm), [June 2019](https://blog.ethereum.org/2019/06/21/ef-supported-teams-development-report-2019-pt-1/#ewasm).
 
@@ -34,7 +34,7 @@ EVM Object Format (EOF) is the next step in the evolution of the EVM. It introdu
 
 The work can be most accurately tracked on [evmobjectoformat.org](https://evmobjectformat.org) and the [ipsilon/eof](https://github.com/ipsilon/eof) repository. It is currently slated for adoption in the [Osaka network update](https://eips.ethereum.org/EIPS/eip-7607).
 
-<small>For the earlier versions (Shanghai/Cancun/Prague), work was tracked in [Everything About EOF](https://notes.ethereum.org/@ipsilon/evm-object-format-overview) and [EOFv1 Checklist](https://notes.ethereum.org/@ipsilon/eof1-checklist).</small>
+<small>For the earlier versions (Shanghai/Cancun/Prague), work was tracked in [Everything About EOF](./Everything%20about%20the%20EVM%20Object%20Format%20(EOF).md) and EOFv1 Checklist.</small>
 
 ### EVMMAX
 
@@ -154,25 +154,25 @@ The [December 2020](https://blog.ethereum.org/2020/12/09/ef-supported-teams-rese
 
 ### Articles
 
-- [EVMMAX Breakout - Devcon SEA L1 R&D Workshop](https://notes.ethereum.org/@ipsilon/evmmax-breakout-2024), 2024-11-11 
-- [Measurable benefits of EOF](https://notes.ethereum.org/@ipsilon/solidity_eof_poc), 2024-07-29
+- [EVMMAX Breakout - Devcon SEA L1 R&D Workshop](./EVMMAX%20Breakout%20-%20Devcon%20SEA%20L1%20R&D%20Workshop.md), 2024-11-11 
+- [Measurable benefits of EOF](./Measurable%20benefits%20of%20EOF.md), 2024-07-29
 - [EOFv0 for packaging legacy code in Verkle Trees](https://github.com/ipsilon/eof/blob/main/spec/eofv0_verkle.md), 2024-04-25
 - [EOF header access in Verkle](https://notes.ethereum.org/@ipsilon/eof_header_access_in_verkle), 2024-04-24
-- [Pairing: Linear function evaluation + point addition/doubling in Jacobian coordinates](https://notes.ethereum.org/@ipsilon/pairing_linear_function_evaluation), 2024-04-12
-- [EVMMAX in evmone](https://notes.ethereum.org/@ipsilon/evmmax_in_evmone), 2024-04-05
+- [Pairing: Linear function evaluation + point addition/doubling in Jacobian coordinates](./Pairing_%20Linear%20function%20evaluation%20+%20point%20addition_doubling%20in%20Jacobian%20coordinates.md), 2024-04-12
+- [EVMMAX in evmone](./EVMMAX%20in%20evmone.md), 2024-04-05
 - [EVMMAX Performance Analysis 1](https://notes.ethereum.org/@ipsilon/evmmax-performance-report-1), 2024-04-04
 - [EVMMAX ❤️ ECRecover](https://devfolio.co/projects/evmmax-ecrecovery-bd49), 2023-06-11
 - [EVMMAX Edelweiss Breakout](https://notes.ethereum.org/@ipsilon/rJGwVubhs), 2023-01-27
 - [Withdrawals – what it could have been?](https://notes.ethereum.org/@axic/BJEbqX13j), 2023-01-26
 - [EIP-4844 point evaluation precompile](https://notes.ethereum.org/@axic/HJ6k_Nlis), 2023-01-17
-- [Everything about the EVM Object Format (EOF)](https://notes.ethereum.org/@ipsilon/evm-object-format-overview), 2022-04-21
+- [Everything about the EVM Object Format (EOF)](./Everything%20about%20the%20EVM%20Object%20Format%20(EOF).md), 2022-04-21
 - [Faster Ethash check against difficulty](https://ethresear.ch/t/faster-ethash-check-against-difficulty/11442), 2021-12-06
-- [EVM Performance Report — Geth & Go Compiler](https://notes.ethereum.org/@ipsilon/evm-performance-report-geth-and-go-compiler), 2021-11
-- [EVM Performance Report — Geth vs evmone](https://notes.ethereum.org/@ipsilon/evm-performance-report-geth-vs-evmone), 2021-11
-- [EOF Prefix Selection](https://notes.ethereum.org/@ipsilon/eof-prefix-selection), 2021-10
+- [EVM Performance Report — Geth & Go Compiler](./EVM%20Performance%20Report%20—%20Geth%20&%20Go%20Compiler.md), 2021-11
+- [EVM Performance Report — Geth vs evmone](./EVM%20Performance%20Report%20—%20Geth%20vs%20evmone.md), 2021-11
+- [EOF Prefix Selection](./EOF%20Prefix.md), 2021-10
 - [Code Merkleization Practical Implementation & Analysis](https://notes.ethereum.org/@ipsilon/code-merkleization-implementation-analysis), 2021-08
 - [Memory Copying in Contracts Deployed on Ethereum](https://notes.ethereum.org/@ipsilon/evm-mcopy-analysis), 2021-06
-- [Everything about the EVM Object Format (EOF)](https://notes.ethereum.org/@ipsilon/evm-object-format-overview), 2021 (live document)
+- [Everything about the EVM Object Format (EOF)](./Everything%20about%20the%20EVM%20Object%20Format%20(EOF).md), 2021 (live document)
 - [Code-chunk-cost Analysis](https://notes.ethereum.org/@ipsilon/code-chunk-cost-analysis), 2021-05
 - [ASE test cases](https://notes.ethereum.org/@ipsilon/address-space-extension-test-cases), 2021-05
 - [Issues with ASE (with a translation map)](https://notes.ethereum.org/@ipsilon/address-space-extension-issues), 2021-05
@@ -271,13 +271,13 @@ Legend:
 - [History and Future of EVM Jumps](https://www.youtube.com/watch?v=8Cp8IsmIJl4) ([slides](https://docs.google.com/presentation/d/e/2PACX-1vQUeg3dB21PMNQ8Bnx8ClUpc_Jyt1INypJTzUcD4RrtZyCOETOS3lMSTs29cZhM4_-JwlbCQDoryHc5/pub)), Secureum TrustX Amsterdam - April 2022
 - [What's next in EVM?](https://www.youtube.com/watch?v=w5QxYFCXm7A) ([slides](https://axic.github.io/notes/trustx_eof/)), Secureum TrustX Amsterdam - April 2022
 - EVM Object Format ([slides](https://axic.github.io/notes/devconnect_eof/)), Protocol R&D Amsterdam - April 2022
-- [PEEPanEIP#67: EIP-3860: Limit and meter initcode](https://www.youtube.com/watch?v=PJQdhPR5BJ0) ([slides](https://notes.ethereum.org/@ipsilon/peepaneip-3860)),  PEEPanEIP - April 2022
-- [PEEPanEIP#66: EIP-3855: PUSH0 instruction](https://www.youtube.com/watch?v=AIuJg6pkJxs) ([slides](https://notes.ethereum.org/@ipsilon/peepaneip-3855)),  PEEPanEIP - April 2022
+- [PEEPanEIP#67: EIP-3860: Limit and meter initcode](https://www.youtube.com/watch?v=PJQdhPR5BJ0) ([slides](./PEEPanEIP-3860_%20Limit%20and%20meter%20initcode.md)),  PEEPanEIP - April 2022
+- [PEEPanEIP#66: EIP-3855: PUSH0 instruction](https://www.youtube.com/watch?v=AIuJg6pkJxs) ([slides](./PEEPanEIP-3855_%20PUSH0%20Instruction.md)),  PEEPanEIP - April 2022
 - [The future of EVM - EVM Object Format](https://youtu.be/wa1qCKR8ig8?t=5264), Ethereum Meetup Berlin - November 2021
 - The future of EVM - EVM Object Format, Liscon - October 2021
 - [Weird quirks while testing WebAssembly](https://www.youtube.com/watch?v=St1PxQB3uPk), Wasm on Web3 - October 2021
 - [Fizzy — A deterministic interpreter](https://www.youtube.com/watch?v=7C0YuLSHmhI), Wasm on Web3 - October 2021
-- [PEEPanEIP#36: EIP-3540 & EIP-3541](https://www.youtube.com/watch?v=E02THhW-yTE) ([slides](https://notes.ethereum.org/@ipsilon/eof-peepaneip-presentation)), PEEPanEIP - June 2021
+- [PEEPanEIP#36: EIP-3540 & EIP-3541](https://www.youtube.com/watch?v=E02THhW-yTE) ([slides](./PEEPanEIP-3540_3670_%20EVM%20Object%20Format%20(EOF)%20v1.md)), PEEPanEIP - June 2021
 - [EVM384 - Doing Fast Crypto in EVM](https://www.youtube.com/watch?v=vlrLl1r66GU), ETHOnline - October 2020
 - [State of Light Client Sync](https://www.youtube.com/watch?v=OXMINRtWWhI), ETHOnline - October 2020
 - [Scaling ethereum 1.x with WASM precompiles](https://www.youtube.com/watch?v=nDHM6Ukign8), EthCC - March 2020

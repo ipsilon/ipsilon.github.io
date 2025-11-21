@@ -174,5 +174,5 @@ Similar issues can be found in Algorithm 27 (Point addition and line evaluation)
 
 It was a fairly simple derivation but we believe it's needed to avoid doubts and misunderstandings by the implementers. It's possible to introduce a couple more optimizations and get better results. Additionally, one may consider to pre-calculate the lines in a separated loop.
 
-These algorithms are implemented and used by [evmone](https://github.com/ethereum/evmone) being developed by [Ipsilon](https://notes.ethereum.org/@ipsilon/about).
+These algorithms are implemented and used by [evmone](https://github.com/ethereum/evmone) being developed by [Ipsilon](./Ipsilon%20website.md).
 

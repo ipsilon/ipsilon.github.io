@@ -6,7 +6,7 @@ This document describes EOF's impact on the most popular existing libraries. We 
 
 The first section addresses issues found in specific projects, and is followed by a categorical list of the kinds of changes authors will need to make.
 
-This document is based on the EOF scope approved in March of 2025. However, based on the findings of this report and the community feedback aroud these changes, Team Ipsilon recommends changes to the spec to reflect ["Option D - Introspecting EOF"](https://notes.ethereum.org/@ipsilon/eof_fusaka_options). The adoption of this option will remove most of the required code changes listed in this report.
+This document is based on the EOF scope approved in March of 2025. However, based on the findings of this report and the community feedback aroud these changes, Team Ipsilon recommends changes to the spec to reflect ["Option D - Introspecting EOF"](./EOF%20Fusaka%20Options.md). The adoption of this option will remove most of the required code changes listed in this report.
 
 ## Uniswap V4 (core)
 
